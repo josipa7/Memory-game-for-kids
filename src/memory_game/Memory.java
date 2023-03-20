@@ -1481,8 +1481,7 @@ public void osnovno() {
 						}
 					});
 		
-					
-					
+						
 					mem.l8.addActionListener(new ActionListener() {
 						public void actionPerformed(ActionEvent arg0){
 							
