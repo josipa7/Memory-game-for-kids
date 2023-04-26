@@ -1100,8 +1100,7 @@ public void osnovno() {
 	panel.add(l6);
 	panel.add(l7);
 	panel.add(l8);
-	   try {
-		   
+	   try {	   
 			
 			l1.setIcon(new ImageIcon(ImageIO.read(new File("images/memory.png"))));
 			l2.setIcon(new ImageIcon(ImageIO.read(new File("images/memory.png"))));
