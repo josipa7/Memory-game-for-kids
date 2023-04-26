@@ -1289,7 +1289,6 @@ public void osnovno() {
 					mem.l6.addActionListener(new ActionListener() {
 						public void actionPerformed(ActionEvent arg0){
 							
-
 							if(m.get(5).equals("images/lion.jpg"))
 								mem.text6="lion";
 							else if(m.get(5).equals("images/turtle.jpg"))
