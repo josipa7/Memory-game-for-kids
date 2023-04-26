@@ -1285,8 +1285,7 @@ public void osnovno() {
 			
 						}
 					});
-					
-				
+						
 					mem.l6.addActionListener(new ActionListener() {
 						public void actionPerformed(ActionEvent arg0){
 							
