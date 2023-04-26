@@ -53,17 +53,8 @@ public class Memory extends JFrame  {
 	
 	public String checkl1(String trenutn) {
 		
-		System.out.println("text1"+text1);
-		System.out.println("text2"+text2);
-		System.out.println("text3"+text3);
-		System.out.println("text4"+text4);
-		System.out.println("text5"+text5);
-		System.out.println("text6"+text6);
-		System.out.println("text7"+text7);
-		System.out.println("text8"+text8);
-		System.out.println("PROSLA"+prosla);
-		System.out.println("TRENUTNA"+trenutn);
-		
+	
+	
 		
 		
 		if(!prosla.equals("")&&!trenutn.equals("")&&!text1.equals("") && text3.equals("")&& text2.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") && text8.equals("") ) {
@@ -147,7 +138,7 @@ public class Memory extends JFrame  {
 							text1="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			               
 			                
 							        }
 							    };
@@ -182,16 +173,7 @@ public class Memory extends JFrame  {
 	
 	public String checkl2(String trenutn){
 		
-		System.out.println("text1"+text1);
-		System.out.println("text2"+text2);
-		System.out.println("text3"+text3);
-		System.out.println("text4"+text4);
-		System.out.println("text5"+text5);
-		System.out.println("text6"+text6);
-		System.out.println("text7"+text7);
-		System.out.println("text8"+text8);
-		System.out.println("PROSLA"+prosla);
-		System.out.println("TRENUTNA"+trenutn);
+		
 		
 		if(!prosla.equals("")&&!trenutn.equals("")&&!text2.equals("") && text3.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") && text1.equals(""))
 			
@@ -284,7 +266,7 @@ public class Memory extends JFrame  {
 							text2="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			              
 			                
 							        }
 							    };
@@ -316,16 +298,7 @@ public class Memory extends JFrame  {
 	public String checkl3(String trenutn) {
 		
 		
-		System.out.println("text1"+text1);
-		System.out.println("text2"+text2);
-		System.out.println("text3"+text3);
-		System.out.println("text4"+text4);
-		System.out.println("text5"+text5);
-		System.out.println("text6"+text6);
-		System.out.println("text7"+text7);
-		System.out.println("text8"+text8);
-		System.out.println("PROSLA"+prosla);
-		System.out.println("TRENUTNA"+trenutn);
+	
 		
 		if(!prosla.equals("")&&!trenutn.equals("")&&!text3.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
 			
@@ -407,7 +380,7 @@ public class Memory extends JFrame  {
 							text3="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			               
 			                
 							        }
 							    };
@@ -528,7 +501,7 @@ public class Memory extends JFrame  {
 							text4="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			                
 			                
 							        }
 							    };
@@ -645,7 +618,7 @@ public class Memory extends JFrame  {
 							text5="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			                
 			                
 							        }
 							    };
@@ -759,7 +732,7 @@ public class Memory extends JFrame  {
 							text6="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			             
 			                
 							        }
 							    };
@@ -883,7 +856,7 @@ public class Memory extends JFrame  {
 							text7="";
 						       
 			                prosla="";
-			                //dialog.setVisible(false);
+			               
 			                
 							        }
 							    };
@@ -895,32 +868,7 @@ public class Memory extends JFrame  {
 			
 		}
 	  }
-		/*
-			
-			
-			l7.setIcon(new ImageIcon(myPicture7));
-			 ActionListener listener = new ActionListener(){
-				public void actionPerformed(ActionEvent event){
-				
-						//l1.setIcon(new ImageIcon(myPicture));
-						reset();
-						text7="";
-					       
-		                prosla="";
-						        }
-						    };
-
-							
-						Timer timer = new Timer(500, listener);
-						timer.setRepeats(false);
-					    timer.start();
-	
-			
-			}
 		
-		}
-	  
-	  */
 	   else if(!prosla.equals("") && prosla.equals(trenutn) && text1.equals("")&& text2.equals("") && text3.equals("") && text4.equals("") && text5.equals("") 
 			   && text6.equals("") && text8.equals("")) {
 	   		prosla="";
@@ -1009,21 +957,6 @@ public class Memory extends JFrame  {
 				
 				 
 				
-				       
-				//JOptionPane.showMessageDialog(frame, "Eggs are not supposed to be green.");
-				/*
-				frame.setEnabled(false);
-			
-				
-				reset();
-				text8="";
-			       
-	            prosla="";
-	            */
-				
-				
-				
-				//JOptionPane.showMessageDialog(null, "SORRY", "InfoBox: " + "naslov", JOptionPane.INFORMATION_MESSAGE);
 				
 			
 			
@@ -1043,7 +976,7 @@ public class Memory extends JFrame  {
 								text8="";
 							       
 				                prosla="";
-				                //dialog.setVisible(false);
+				                
 				                
 								        }
 								    };
@@ -1058,34 +991,7 @@ public class Memory extends JFrame  {
 							   
 				 
 				 
-				//JOptionPane.showMessageDialog(null, 
-                 //       "ALERT MESSAGE", 
-                  //      "TITLE", 
-                   //     JOptionPane.WARNING_MESSAGE);
-				 
-				 
 				
-				
-				
-				
-				 //ActionListener listener = new ActionListener(){
-				//	public void actionPerformed(ActionEvent event){
-						
-						
-				   
-					
-							
-					//		reset();
-						//	text8="";
-						       
-			              //  prosla="";
-							//        }
-							  //  };
-
-								
-							//Timer timer = new Timer(500, listener);
-							//timer.setRepeats(false);
-				//		    timer.start();
 		
 				
 				}
@@ -1231,14 +1137,8 @@ public void osnovno() {
 		}
 	   
 	 
-		//frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		//frame.pack();
-		//frame.setMinimumSize(frame.getPreferredSize());
-	
-	    
-
 		
-	
+
 
 		}
 
@@ -1330,8 +1230,7 @@ public void osnovno() {
 						    
 						    
 						    
-						    
-						    
+			    		    
 						    
 					
 							mem.checkl1(mem.text1);
@@ -1409,7 +1308,7 @@ public void osnovno() {
 					}
 					});
 					
-					
+				
 					
 					mem.l5.addActionListener(new ActionListener() {
 						public void actionPerformed(ActionEvent arg0){
@@ -1427,13 +1326,12 @@ public void osnovno() {
 						    mem.l5.setIcon(new ImageIcon(myPicture5));
 			
 							mem.checkl5(mem.text5);
-			
 								
 			
 						}
 					});
 					
-					
+				
 					mem.l6.addActionListener(new ActionListener() {
 						public void actionPerformed(ActionEvent arg0){
 							
@@ -1504,7 +1402,6 @@ public void osnovno() {
 						
 						}
 					});
-		
-		
+			
 }
 }
