@@ -1,8 +1,6 @@
 package memory_game;
 
 
-
-
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -52,10 +50,7 @@ public class Memory extends JFrame  {
 	
 	
 	public String checkl1(String trenutn) {
-		
-	
-	
-		
+
 		
 		if(!prosla.equals("")&&!trenutn.equals("")&&!text1.equals("") && text3.equals("")&& text2.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") && text8.equals("") ) {
 	
@@ -411,8 +406,7 @@ public class Memory extends JFrame  {
 			
 	}
 	
-	
-	
+
 	
 	public String checkl4(String trenutn) {
 
@@ -762,11 +756,7 @@ public class Memory extends JFrame  {
 			
 	}
 	
-	
-	
-	
-	
-	
+
 	
 	public String checkl7(String trenutn) {
 		
@@ -835,10 +825,7 @@ public class Memory extends JFrame  {
 		}
 		else {
 			
-			
-			
-			
-			
+
 
 			l7.setIcon(new ImageIcon(myPicture7));
 			 
@@ -954,11 +941,7 @@ public class Memory extends JFrame  {
 			}
 			else {
 			
-				
-				 
-				
-				
-			
+
 			
 				l8.setIcon(new ImageIcon(myPicture8));
 				 
@@ -986,14 +969,7 @@ public class Memory extends JFrame  {
 								timer.setRepeats(false);
 							    timer.start();
 							    
-							    
-							    
-							   
-				 
-				 
-				
-		
-				
+
 				}
 			
 			}
@@ -1015,17 +991,7 @@ public class Memory extends JFrame  {
 				
 		}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	public void reset() {
 		if(l1.isEnabled()) {
@@ -1077,8 +1043,7 @@ public class Memory extends JFrame  {
 		l7.setText("");
 		l8.setText("");
 	
-		
-		
+
 	}
 	
 	
@@ -1127,9 +1092,7 @@ public void osnovno() {
 			prosla="";
 			trenutna="";
 			
-		
-		
-		    
+    
 		
 		} catch (Exception e) {
 		    e.printStackTrace();
@@ -1223,14 +1186,7 @@ public void osnovno() {
 						    	mem.text1="panda";
 													
 						    mem.l1.setIcon(new ImageIcon(myPicture));
-						    
-						    
-						    
-						    
-						    
-						    
-			    		    
-						    
+	    
 					
 							mem.checkl1(mem.text1);
 																
