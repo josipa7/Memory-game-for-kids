@@ -52,7 +52,7 @@ public class Memory extends JFrame  {
 	public String checkl1(String trenutn) {
 
 		
-		if(!prosla.equals("")&&!trenutn.equals("")&&!text1.equals("") && text3.equals("")&& text2.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") && text8.equals("") ) {
+		if(!prosla.equals("") && !trenutn.equals("")&& !text1.equals("") && text3.equals("")&& text2.equals("") && text5.equals("") && text4.equals("") && text6.equals("") && text7.equals("") && text8.equals("") ) {
 	
 					
 			prosla="";
@@ -295,7 +295,7 @@ public class Memory extends JFrame  {
 		
 	
 		
-		if(!prosla.equals("")&&!trenutn.equals("")&&!text3.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
+		if(!prosla.equals("")&&!trenutn.equals("")&&!text3.equals("") && text1.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
 			
 			prosla="";
 	 	
@@ -412,7 +412,7 @@ public class Memory extends JFrame  {
 
 		  
 		
-     if(!prosla.equals("")&&!trenutn.equals("")&&!text4.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text3.equals("") && text6.equals("") &&text7.equals(""))
+     if(!prosla.equals("")&&!trenutn.equals("")&&!text4.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text3.equals("") && text6.equals("") &&text7.equals("") && text1.equals(""))
 			
 			  prosla="";
 	
@@ -527,7 +527,7 @@ public class Memory extends JFrame  {
 	
 	public String checkl5(String trenutn) {
 		
-       if(!prosla.equals("")&&!trenutn.equals("")&&!text5.equals("") && text2.equals("")&& text8.equals("") && text3.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
+       if(!prosla.equals("")&&!trenutn.equals("")&&!text5.equals("") && text2.equals("") && text1.equals("") &&  text8.equals("") && text3.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
 			
 			prosla="";
 		
@@ -642,7 +642,7 @@ public class Memory extends JFrame  {
 	
 	public String checkl6(String trenutn) {
 		
-	  if(!prosla.equals("")&&!trenutn.equals("")&&!text6.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text3.equals("") &&text7.equals("") &&text8.equals(""))
+	  if(!prosla.equals("")&&!trenutn.equals("")&&!text6.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text3.equals("") &&text7.equals("") &&text8.equals("") && text1.equals(""))
 			
 			prosla="";
 		
@@ -760,7 +760,7 @@ public class Memory extends JFrame  {
 	
 	public String checkl7(String trenutn) {
 		
-	  if(!prosla.equals("")&&!trenutn.equals("")&&!text7.equals("") && text2.equals("")&& text8.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text3.equals("") &&text8.equals(""))
+	  if(!prosla.equals("")&&!trenutn.equals("")&&!text7.equals("") && text2.equals("")&& text1.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text3.equals("") &&text8.equals(""))
 			
 			prosla="";
 		
@@ -876,7 +876,7 @@ public class Memory extends JFrame  {
 	
 	public String checkl8(String trenutn) {
 		
-		  if(!prosla.equals("")&&!trenutn.equals("")&&!text8.equals("") && text2.equals("")&& text3.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals(""))
+		  if(!prosla.equals("")&&!trenutn.equals("")&&!text8.equals("") && text2.equals("")&& text3.equals("") && text5.equals("") && text4.equals("") && text6.equals("") &&text7.equals("") &&text8.equals("") && text1.equals(""))
 			
 			  prosla="";
 		
