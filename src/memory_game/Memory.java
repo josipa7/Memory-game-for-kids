@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,27 +24,17 @@ public class Memory extends JFrame  {
 	public static String panda="images/panda.jpg", lion="images/lion.jpg",turtle="images/turtle.jpg", fish="images/fish.jpg";
 	public static ArrayList<String> list= new ArrayList<String>();
 	public static List<Integer> lst=new ArrayList<Integer>();
-	public String check(String trenutn, ArrayList<BufferedImage> listImage,int a) {
-		int pom=0;	
-		for(int i=0;i<8;++i) {
-			if(i!=a && !list.get(i).equals("")) {
-				pom=pom+1;			
-			}			
-			}	
-		if(!prosla.equals("") && !trenutn.equals("") && !list.get(a).equals("") && pom==0) {		
-					prosla="";	
-			     } 
-		if(pom>0) { 
-				if(prosla.equals(trenutn)) {	
-							for(int i=0;i<8;++i) {								
-								if(list.get(i).equals(trenutn)) {
-									buttonList.get(i).setEnabled(false);
-									list.set(i,"");									
-								}			
+	public String check(String trenutn, ArrayList<BufferedImage> listImage,int a) {		
+		if(list.stream().filter(x -> !x.isEmpty()).count()==2) { 
+			if(prosla.equals(trenutn) ) { 
+						for(int i=0;i<8;++i) {								
+								if(list.get(i).equals(trenutn) ) {
+									buttonList.get(i).setEnabled(false);									
+									list.set(i,"");	
+								}							
 							}				
-				}	
-				else {					
-					buttonList.get(a).setIcon(new ImageIcon(listImage.get(a)));
+			}	
+			else {	 
 					frame.setEnabled(false);
 					buttonList.get(a).setIcon(new ImageIcon(listImage.get(a)));
 					ActionListener listener = new ActionListener(){
@@ -58,11 +48,16 @@ public class Memory extends JFrame  {
 							    timer.setRepeats(false);
 							    timer.start();			
 					}
-				prosla="";
+			prosla="";
 	  }
-	    else {
-	  		   prosla=trenutn;		  						   
-		       list.set(a,trenutn);	
+	    else { 
+	    	if(prosla.equals(trenutn)) { 			
+						prosla=trenutn;				
+	    	}
+	    	else {
+	    				prosla=trenutn;		  						   
+	    				list.set(a,trenutn);
+	    	}
 	    }
 			return prosla;	
 	}	
