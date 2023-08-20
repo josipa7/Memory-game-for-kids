@@ -66,11 +66,10 @@ public class Memory extends JFrame  {
 			}
 			buttonList.get(i).setText("");				
 		}		}	
-public void kartica(ArrayList<BufferedImage> listImage,int a) {
-	for(int i=0;i<24;++i) {		
-		if((zivotinje.get(i)).contains(m.get(a))) {
-			list.set(a,zivotinje.get(i).toString()); 			
-		}}	
+public void kartica(ArrayList<BufferedImage> listImage,int a) {		
+		if(zivotinje.contains(m.get(a))) {
+			list.set(a,m.get(a).toString()); 			
+		}	
 	buttonList.get(a).setIcon(new ImageIcon(listImage.get(a)));
 	check(list.get(a),listImage,a);		
 }
