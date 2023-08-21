@@ -1,22 +1,23 @@
+![Slika3](https://github.com/josipa7/Memory-game-for-kids/assets/48915276/347a3c9a-22c9-4b94-819e-20834ac49510)
 # Memory-game-for-kids
 
 Easy Memory game for kids made in Java using Java-Swing.
 
 
+## RUN
+
+The "play" folder contains MEMORY.jar that you can download and run to play the game.
+
+
+
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/48915276/235006126-a8703c47-f2e6-4543-9b91-59c1708ce089.png)   
-
-
-![image](https://user-images.githubusercontent.com/48915276/235005973-9aede0f1-4aa3-4d3a-b000-66251a1bcebb.png)
 
 
 
+![Slika1](https://github.com/josipa7/Memory-game-for-kids/assets/48915276/b3a2fa57-77c7-475d-bb45-69cafb82e00c)
 
 
+![Slika2](https://github.com/josipa7/Memory-game-for-kids/assets/48915276/c795e7f2-4ea2-41a0-8979-9e7a557528da)
 
-![image](https://user-images.githubusercontent.com/48915276/235005321-dc0d057d-5a65-483e-ab24-51f20d0a4aec.png)
-
-
-
-
+![Slika3](https://github.com/josipa7/Memory-game-for-kids/assets/48915276/90ecd144-432c-471b-b07b-58aaefd7a992)
