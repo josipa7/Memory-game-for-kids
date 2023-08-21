@@ -1,4 +1,4 @@
-![Slika3](https://github.com/josipa7/Memory-game-for-kids/assets/48915276/347a3c9a-22c9-4b94-819e-20834ac49510)
+
 # Memory-game-for-kids
 
 Easy Memory game for kids made in Java using Java-Swing.
