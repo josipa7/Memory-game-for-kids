@@ -30,6 +30,7 @@ public class Memory extends JFrame  {
 								}							
 							}				
 			}	
+			
 			else {	 
 					frame.setEnabled(false);
 					buttonList.get(a).setIcon(new ImageIcon(getClass().getClassLoader().getResource(list.get(a))));
