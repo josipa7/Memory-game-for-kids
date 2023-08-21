@@ -65,7 +65,7 @@ public class Memory extends JFrame  {
 				list.set(i,"");
 			}
 			buttonList.get(i).setText("");				
-		}		}	
+		}}	
 public void kartica(ArrayList<BufferedImage> listImage,int a) {		
 		if(zivotinje.contains(m.get(a))) {
 			list.set(a,m.get(a).toString()); 			
@@ -88,14 +88,13 @@ public void osnovno() throws IOException {
 		 if(i<2) {
 			zivotinje.add("images/panda.jpg");zivotinje.add("images/lion.jpg");zivotinje.add("images/tiger.png");zivotinje.add("images/bird.png");zivotinje.add("images/elephant.png");zivotinje.add("images/cow.png");	
 		    zivotinje.add("images/fish.jpg");zivotinje.add("images/bambi.png");zivotinje.add("images/bee.png");zivotinje.add("images/donkey.png");zivotinje.add("images/cat.png");zivotinje.add("images/dog2.png");  		     	    	
-		 } }   				
-		for(int i=0;i<24;++i) {					
-			while(lst.contains(rand)) {
-					rand = (int)(Math.random() * range) + min;								
-			}					
-			lst.add(rand);					
-			m.put(lst.get(i), zivotinje.get(i));		   	
-		}		
+		 } 		 
+		 while(lst.contains(rand)) {
+				rand = (int)(Math.random() * range) + min;								
+		}					
+		lst.add(rand);					
+		m.put(lst.get(i), zivotinje.get(i));				 
+	 }   						
 		for(int i=0;i<24;++i) {		
 			listImage.add(ImageIO.read(new File(m.get(i))));	
 			final Integer var = new Integer(i);				
