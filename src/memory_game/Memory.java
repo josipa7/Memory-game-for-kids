@@ -15,13 +15,12 @@ public class Memory extends JFrame  {
 	public static List<JButton> buttonList = new ArrayList<>(); 
 	public static Map<Integer,String> m =new HashMap<Integer,String>();
 	public static ArrayList<BufferedImage> listImage= new ArrayList<BufferedImage>();
-	public String last="", current="";
+	public String last="";
 	public static ArrayList<String> list= new ArrayList<String>(),zivotinje = new ArrayList<String>();
 	public static List<Integer> lst=new ArrayList<Integer>();
-	public int pom;
-	public String check(String current, ArrayList<BufferedImage> listImage,int a) {		
+	public void check(String current, ArrayList<BufferedImage> listImage,int a) {		
 		  if((list.stream().filter(x -> !x.isEmpty()).count()==2)) { 
-			        pom=list.indexOf(last);
+			       int pom=list.indexOf(last);
 			   		if(last.equals(current)) { 
 				    			match(list.subList(list.indexOf(last)+1, list.size()).indexOf(last)+list.indexOf(last)+1);
 				    			match(pom);				   	
@@ -44,8 +43,7 @@ public class Memory extends JFrame  {
 	        else { 
 	        			list.set(a,current);  
 	        	}	    	
-		 last=current;    
-		 return last;	
+		 last=current;    		 	
 	}
 	public void match(int index1) {
 			buttonList.get(index1).setEnabled(false);									
@@ -54,12 +52,10 @@ public class Memory extends JFrame  {
 	public void reset(int d) {	
 				buttonList.get(d).setIcon(new ImageIcon(getClass().getClassLoader().getResource("memory.png")));				
 				list.set(d,"");		
-			    buttonList.get(d).setText("");	
+			        buttonList.get(d).setText("");	
 		}	
 	public void card(ArrayList<BufferedImage> listImage,int a) {		
-			if(zivotinje.contains(m.get(a))) {
-				list.set(a,m.get(a).toString()); 			
-			}	
+			list.set(a,m.get(a).toString()); 				
 			buttonList.get(a).setIcon(new ImageIcon(getClass().getClassLoader().getResource(list.get(a))));
 			check(list.get(a),listImage,a);		
 }
